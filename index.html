@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ronit's PORTFOLIO</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/1259eeb239.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/logo.png" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>        
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class=" fas fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class=" fas fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Web Developer</p>
+        <h1>Hi, I'm <span>Ronit</span> <br>Dhera from Pakistan</h1>
+      </div>
+    </div>
+
+  </div>
+  <!-- about -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/WhatsApp Image 2023-06-20 at 3.04.35 AM.png">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>Hello! I'm Ronit, a passionate Full Stack Web Developer with over 2 years of working experience. A strong desire to create both visually stunning and highly functional web applications. My expertise includes a wide range of technologies such as HTML, CSS, JavaScript, jQuery, Bootstrap, WordPress, PHP, Laravel, and SQL/MySQL databases. These skills empower me to develop seamless, intuitive, and scalable web solutions that provide great user experiences.
+<br><br>
+            In addition to my technical proficiency, I have a solid foundation in UI/UX design, leveraging tools like Figma and Canva to bring user-centered designs to life. I thrive on delivering solutions that exceed client expectations, blending creativity with functionality to leave a lasting impact.
+            <br><br>
+            If you're looking for a dedicated full stack developer or someone to elevate your front-end projects, I'd love to connect and discuss how we can work together to bring your vision to life. Let’s collaborate to create innovative, impactful web experiences!
+<br><br>
+            Thank you for taking the time to get to know me.
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+            <p class="tab-links" onclick="opentab('experience')">Experiences</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Frontend Development: </span><br>Crafting responsive and interactive web interfaces that elevate user experiences.</li>
+              <li><span>Backend Development:</span><br>Building robust server-side solutions to ensure seamless functionality and scalability.</li>
+              <li><span>WordPress Development:</span><br>Creating custom, feature-rich WordPress sites tailored for ease of use and performance.</li>
+
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2023-2025</span><br>ADSE (Software-Engineering) Diploma from Aptech Computer Education Garden,Karachi(In-Process)</li>
+              <li><span>2022</span><br>S.S.C I & II from St.Francis High School,Karachi</li>
+              <li><span>2023-2025</span><br>Intermediate from Govt.Boys Degree College,Karachi(In-Process)</li>
+
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li>Over 2 years of experience working with leading companies, delivering high-quality web development solutions.</li>
+              <li><span>1.Webrexo</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>2.Vision Tech</span></li>
+        
+              <li><span>3.Perks Logic</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>4.Block Astro</span> </li>
+            
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- services -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Frontend Development: </h2>
+          <p>I specialize in creating visually appealing, responsive, and interactive web interfaces. By using modern technologies like HTML, CSS, JavaScript, and frameworks, I ensure seamless user experiences across all devices.</p>
+        
+        </div>
+        <div>
+          <i class="fa-solid fa fa-server"></i>
+          <h2>Backend Development:</h2>
+          <p>From database design to API integration, I develop scalable and secure server-side solutions. Whether it's handling complex data or building robust architectures, my backend expertise ensures your web applications run smoothly.</p>
+       
+        </div>
+        <div>
+          <i class="fa fa-wordpress"></i>
+          <h2>WordPress Development: </h2>
+          <p>With a focus on customization and performance, I build tailored WordPress websites that are easy to manage. Whether it's creating a new site or enhancing an existing one, I ensure your WordPress site aligns with your business goals.</p>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- portfolio -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="worklist">
+        <div class="work">
+          <img src="images/helpacadmic.png" alt="">
+          <div class="layer">
+            <h3>Help Academic</h3>
+            <p>Help Academic is an assignment writing platform with a user-friendly contact form, engaging blog, secure reCAPTCHA, interactive popups, and real-time live chat support.</p>   <a href="https://helpacademic.co.uk/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/DC].png" alt="">
+          <div class="layer">
+            <h3>Dissertation Consultant</h3>
+            <p>Dissertation Consultant features a live chat for instant support, a live blog for insights, easy navigation with a blog count, a search function for quick content access, and a user-friendly contact form.</p><a href="https://dissertationconsultant.co.uk/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        
+
+      </div>
+      <div class="worklist">
+        <div class="work">
+          <img src="images/click prefer.png" alt="">
+          <div class="layer">
+            <h3>Click Prefer</h3>
+            <p>ClickPrefer is an affiliate platform for publishers, featuring a robust dashboard for performance tracking and analytics. It offers intuitive navigation and tools to help publishers maximize earnings and optimize their campaigns.
+
+            </p>
+            <a href="https://www.clickprefer.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/affilo.png" alt="">
+          <div class="layer">
+            <h3>The Affilo</h3>
+            <p>TheAffilo is an affiliate platform for publishers, offering a user-friendly dashboard and essential tools for performance monitoring and earnings tracking.  </p>
+            <a href="https://www.theaffilo.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        
+
+      </div>
+      <div class="worklist">
+        <div class="work">
+          <img src="images/Soundwalker.png" alt="">
+          <div class="layer">
+            <h3>Soundwalker</h3>
+            <p>Soundwalker features a cutting-edge UI, designed for a seamless and immersive user experience that stands out.</p>
+            <a href="https://soundwalker-landing-page.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/Next Wave.png" alt="">
+          <div class="layer">
+            <h3>Next-Wave Agency </h3>
+            <p>Next-Wave Agency delivers a sleek, modern UI, designed to engage users with a visually striking and intuitive experience.</p>
+            <a href="https://next-wave-agency.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        
+
+      </div>
+    
+    </div>
+  </div>
+  <!-- contact -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p> <i class="fa-solid fa-paper-plane"></i>ronit2301a@aptechgdn.net</p>
+          <p> <i class="fa-solid fa-square-phone"></i>+923181223761</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/rooniiit"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/ronit.io/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/ronit-dhera-868446280/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://wa.me/923181223761"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+          <a href="images/Ronit Dhera (1).pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form >
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="Message"  rows="6"  placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Sumbit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright © Ronit. All Rights Reserved 2024 <i class="fa-solid fa-heart"></i></p>
+    </div>
+  </div>
+  <script>
+    let tablinks = document.getElementsByClassName("tab-links");
+    let tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+
+    }
+  </script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+      sidemenu.style.right = "0";
+    }
+    function closemenu(){
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+</body>
+
+</html>
